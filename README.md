@@ -1,4 +1,4 @@
-# Zomato Customer Analysis
+# Food delivery app Customer Analysis
 
 This project includes SQL scripts for creating tables, inserting data, and running various analytical queries on a Zomato-like database.
 
