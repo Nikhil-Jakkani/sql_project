@@ -24,17 +24,5 @@ This project includes SQL scripts for creating tables, inserting data, and runni
    - `product_name` (text)
    - `price` (integer)
 
-## Data Insertion
 
-### Gold Users Signup
-```sql
-DROP TABLE IF EXISTS goldusers_signup;
-CREATE TABLE goldusers_signup(
-  userid INTEGER,
-  gold_signup_date DATE
-);
 
-INSERT INTO goldusers_signup (userid, gold_signup_date) 
-VALUES 
-  (1, '2017-09-22'),
-  (3, '2017-04-21');
